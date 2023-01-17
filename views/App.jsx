@@ -5,8 +5,15 @@ import Navbar from "./Navbar/Navbar";
 
 export default function App() {
   return (
-    <div className="App">
+    
+    <main className="App">
+      <link rel="stylesheet" href="./public/styles.css" />
       <Navbar />
-    </div>
+
+      
+    </main>
+   
+ 
+    
   );
 }
