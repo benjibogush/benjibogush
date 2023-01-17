@@ -1,7 +1,10 @@
-run = "vite"
-entrypoint = "src/App.jsx"
+# run = "vite"
+# entrypoint = "src/App.jsx"
+language = "nodejs"
+run = "npm start"
+entrypoint = "index.js"
 
-hidden = [".config", "tsconfig.json", "tsconfig.node.json", "vite.config.js", ".gitignore"]
+hidden = [ ".gitignore"]
 
 [nix]
 channel = "stable-22_11"
