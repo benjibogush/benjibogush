@@ -5,6 +5,8 @@ const app = express();
 
 app.use('/public', express.static('public'));
 app.set('views', __dirname + '/views');
+
+// console.log(__dirname)
 app.set('view engine', 'jsx');
 app.engine('jsx', reactViews.createEngine());
 

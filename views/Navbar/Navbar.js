@@ -2,6 +2,10 @@ import React from "react";
 import { MenuItems } from "./MenuItems";
 import { Nav } from "react-bootstrap";
 
+// const React = require('react')
+// const MenuItems = require('./MenuItems')
+// const Nav = require('react-bootstrap')
+
 export default function Navbar() {
   return (
     <Nav className="NavbarItems">
