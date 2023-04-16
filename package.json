@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "express-react-views": "^0.10.5",
     "react": "^16.4.0",
-    "react-bootstrap": "^2.7.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^16.4.0",
     "search": "^1.0.0",
     "views": "^1.0.2"
